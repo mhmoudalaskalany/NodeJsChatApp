@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const app: Express = express();
 
 app.use(helmet());
-
+app.set('view engine', 'ejs');
 
 app.get('/', (req: Request, res: Response) => {
     res.send('<h1>Hello from the TypeScript world!!!</h1>');
