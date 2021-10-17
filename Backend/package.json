@@ -23,6 +23,7 @@
   "homepage": "https://github.com/mhmoudalaskalany/NodeJsChatApp#readme",
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/uuid": "^8.3.1",
     "concurrently": "^6.3.0",
     "nodemon": "^2.0.13",
     "ts-node": "^10.3.0",
@@ -31,10 +32,19 @@
   },
   "dependencies": {
     "@types/node": "^16.11.1",
+    "@types/socket.io": "^3.0.2",
+    "@types/socket.io-client": "^3.0.0",
+    "axios": "^0.23.0",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
-    "rimraf": "^3.0.2"
+    "http": "0.0.1-security",
+    "peer": "^0.6.1",
+    "rimraf": "^3.0.2",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "uuid": "^8.3.2"
   }
 }
